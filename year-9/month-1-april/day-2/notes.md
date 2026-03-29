@@ -1,24 +1,53 @@
-===================
-  Year 9 - DAY 2
-===================
+# Year 9 — Day 2
 
-Today, I started pretty late (20:00), BUT, I'd say I still managed to get a good amount done. I done 2 theory lessons covering OG and Media in HTML and also Done a Workshop on a BookStore Page and a Lab on a Travel Agency Page.
-Overall, I believe I done pretty well considering the time I started at and this will help me with my Portfolio Website end goal as I might want to include some media playing in the Portfolio.
+## What I Did
 
-IMPROVEMENTS:
+Started late at 20:00 but still got a solid session in. Covered audio
+and video theory in HTML and completed two projects — a bookstore page
+and a travel agency page.
 
- 1. I completed the BookStore Page Course on FreeCodeCamp (Attached)
- 2. I completed the Travel Agency Course on FreeCodeCamp (Attached)
- 3. I done the theory course on Video and Audio files in HTML on FreeCodeCamp
+## Improvements
 
-ACTIVE RECALL QUESTIONS:
+1. Completed the BookStore Page workshop on freeCodeCamp
+2. Completed the Travel Agency lab on freeCodeCamp
+3. Completed the theory lesson on video and audio in HTML
 
-1. What is the difference between the <video> and <audio> tags in HTML, and what attribute do both share that makes them play automatically?
-    The <video> Tag is Used to Play Video File Formats on the Webpage such as mp4 Files while <audio> is the same as Video just with Audio File Types such as mp3 and the Attribute that Makes it Automatically Start is called
-    autoplay
+---
 
-2. What does the controls attribute do on a <video> tag, and what happens if you leave it out?
-    The controls attribute is used both in <audio> and <video> tags to display a interactable controller used for pausing, starting (etc) the Media Being Played
+## Active Recall
 
-3. On the Travel Agency page, if you wanted a link that opens in a new tab, what attribute do you add to the <a> tag and what is its value?
-    In the <a> Tag I would have to add href="" with the content URL I want to send to user to in the Speech Marks and then target="_blank" to Make It Open in a New Tab
+**Q1: What is the difference between `<video>` and `<audio>`, and what attribute makes them play automatically?**
+
+`<video>` embeds video file formats like mp4. `<audio>` embeds audio
+file formats like mp3. Both support the `autoplay` attribute which starts
+playback automatically without user interaction.
+
+---
+
+**Q2: What does the `controls` attribute do on a `<video>` tag, and what happens if you leave it out?**
+
+The `controls` attribute displays an interactive UI — play, pause, volume,
+scrubber. Without it the media plays with no interface, meaning the user
+has no way to control it.
+
+---
+
+**Q3: On the Travel Agency page, how do you make a link open in a new tab?**
+
+Add `target="_blank"` to the `<a>` tag alongside the `href` attribute.
+The `href` holds the destination URL and `target="_blank"` tells the
+browser to open it in a new tab rather than the current one.
+
+---
+
+## Reflection
+
+Late start but the output was solid. The `<figure>` and `<figcaption>`
+tags on the travel agency page were new — proper semantic grouping for
+images with captions. Connection to portfolio goal: audio and video tags
+will be useful if I want to embed media on the portfolio later.
+
+## Tomorrow
+
+- Continue freeCodeCamp — move into CSS
+- Start at 10:00, not 20:00
