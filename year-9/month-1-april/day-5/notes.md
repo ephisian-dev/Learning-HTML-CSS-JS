@@ -47,5 +47,3 @@ Forms and tables are more involved than basic HTML structure. The trickiest part
 
 ## Tomorrow
 - Start CSS basics on freeCodeCamp (selectors, colors, fonts)
-- Look at the box model — it comes up immediately when you start styling
-- Push today's projects to GitHub under the correct year/month/day folder
