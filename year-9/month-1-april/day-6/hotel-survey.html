@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Hotel Survey Form</h1>
+    <p id="description">
+      Welcome to the LunarHotel Feedback Form. We kindly ask for you to leave us
+      any feedback we can use to improve our services, Thank You.
+    </p>
+
+    <form id="survey-form">
+
+      <label id="name-label" for="name">Name:</label>
+      <input id="name" type="text" placeholder="John Doe" required />
+
+      <label id="email-label" for="email">Email:</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="lunarhotel@example.com"
+        required
+      />
+
+      <label id="number-label" for="number">Phone Number:</label>
+      <input
+        id="number"
+        type="number"
+        min="7"
+        max="15"
+        placeholder="0750636982"
+      />
+
+      <label for="dropdown">Rating:</label>
+      <select id="dropdown" name="hotel-rating">
+        <option value="" disabled selected>Select a rating</option>
+        <option value="5">5 Star</option>
+        <option value="4">4 Star</option>
+        <option value="3">3 Star</option>
+        <option value="2">2 Star</option>
+        <option value="1">1 Star</option>
+      </select>
+
+      <label>Would you Recommend?</label>
+      <input
+        name="recommend-answer"
+        id="recommend-yes"
+        type="radio"
+        value="yes"
+      />
+      <label class="inline" for="recommend-yes">Yes</label>
+
+      <input
+        name="recommend-answer"
+        id="recommend-no"
+        type="radio"
+        value="no"
+      />
+      <label class="inline" for="recommend-no">No</label>
+
+      <label>What Activities Did you Do? (Select all that apply)</label>
+      <input type="checkbox" id="kayaking" name="activities" value="kayaking" />
+      <label class="inline" for="kayaking">Kayaking</label>
+
+      <input type="checkbox" id="swimming" name="activities" value="swimming" />
+      <label class="inline" for="swimming">Swimming</label>
+
+      <input
+        type="checkbox"
+        id="rock-climbing"
+        name="activities"
+        value="rock-climbing"
+      />
+      <label class="inline" for="rock-climbing">Rock Climbing</label>
+
+      <input type="checkbox" id="skiing" name="activities" value="skiing" />
+      <label class="inline" for="skiing">Skiing</label>
+
+      <label for="comments">Any Comments?</label>
+      <textarea
+        id="comments"
+        name="user-comments"
+        placeholder="Tell us more..."
+      ></textarea>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
