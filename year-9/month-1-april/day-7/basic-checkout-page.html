@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <section>
+      <h2>Your Cart</h2>
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+        alt="A Scrambled, Twisted Rubix Cube on a Empty Background"
+      />
+    </section>
+
+    <section>
+      <h2>Payment Information</h2>
+
+      <form>
+        <label for="card-number"
+          ><span aria-hidden="true">*</span>Card Number
+        </label>
+        <input
+          id="card-number"
+          name="card-number"
+          aria-describedby="card-number-help"
+          type="text"
+          required
+        />
+        <p id="card-number-help">Enter your Card's Number Above</p>
+
+        <label for="card-name"
+          ><span aria-hidden="true">*</span>Card Holder's Name</label
+        >
+        <input id="card-name" name="card-name" type="text" required />
+      </form>
+    </section>
+  </body>
+</html>
