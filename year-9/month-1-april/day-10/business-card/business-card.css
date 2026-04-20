@@ -1,0 +1,63 @@
+body {
+    background-color: #020408;
+    color: #cbd5e1;          
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.business-card {
+    background-color: #0a0c12; 
+    width: 360px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+}
+
+.profile-image {
+    width: 130px;
+    border-radius: 50%;
+    border: 2px solid #334155;
+    margin-bottom: 15px;
+}
+
+.name {
+    color: #ffffff;         
+    font-size: 32px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.title {
+    color: #64748b;        
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #334155;           
+    letter-spacing: 2px;
+}
+
+a {
+    color: #8b5cf6;         
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #ff00ff;         
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #1e293b; 
+    margin: 25px 0;
+}
